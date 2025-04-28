@@ -1,0 +1,17 @@
+body {
+    background-color: var(--defaultBackground);
+    overflow: hidden scroll;
+}
+
+main {
+    height: 100%;
+    max-width: calc(100vw - var(--tamanhoSidebarGrande));
+    overflow-x: hidden;
+    padding: 1rem 1.25rem;
+}
+html[sidebar-size=small] main {
+    max-width: calc(100vw - var(--tamanhoSidebarPequena));
+}
+html[sidebar-size=mobile] main {
+    max-width: 100vw;
+}

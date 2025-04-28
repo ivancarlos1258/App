@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --corPrincipal: #0ff50f;
+    --defaultBackground: #0ff50f0E;
+    --corDisabled: #0ff50f14;
+    --cinzaClaro: #b8c6cc;
+    --cinzaEscuro: #2e3133;
+    --cinza: #808080;
+}
+
+* {
+    box-sizing: border-box !important;
+    font-family: 'Nunito Sans', sans-serif !important;
+    text-decoration: none !important;
+    transition: all 0.25s ease-in-out;
+}
+
+.card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.form-check:not(.switch):not(.form-switch) {
+    align-items: center !important;
+    display: flex !important;
+    gap: 0.25rem !important;
+    padding: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--cinzaEscuro);
+    font-weight: bold;
+}
+h1 {
+    font-size: 26px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+
+input[disabled]:not(.form-check-input, .switch), select[disabled] {
+    background-color: var(--corDisabled) !important;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type=checkbox], input[type=radio] {
+    accent-color: var(--corPrincipal);
+    transform: scale(1.1);
+}
+
+label{
+    font-weight: bold;
+}
+.form-floating label{
+    font-weight: normal;
+}
+.form-floating label::after {
+    background: transparent !important;
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+ul {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}

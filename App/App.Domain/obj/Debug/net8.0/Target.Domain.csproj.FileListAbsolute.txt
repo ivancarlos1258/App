@@ -1,0 +1,13 @@
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\bin\Debug\net8.0\Target.Domain.deps.json
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\bin\Debug\net8.0\Target.Domain.dll
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\bin\Debug\net8.0\Target.Domain.pdb
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.csproj.AssemblyReference.cache
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.AssemblyInfoInputs.cache
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.AssemblyInfo.cs
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.csproj.CoreCompileInputs.cache
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.sourcelink.json
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.dll
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\refint\Target.Domain.dll
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\Target.Domain.pdb
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Domain\obj\Debug\net8.0\ref\Target.Domain.dll

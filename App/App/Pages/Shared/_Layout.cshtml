@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["ProjectName"] = "App";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App - @ViewData["Title"]</title>
+    @* <link rel="shortcut icon" href="~/img/icon.png"> *@
+</head>
+<body>
+    @* HTML LAYOUT *@
+    @await Html.PartialAsync("~/_LayoutPadraoComponentes/Layout.cshtml", RenderBody())
+
+    @* LIBS JS*@
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.9/jquery.i18n.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+
+    @* SCRIPTS *@
+    <script>
+        var tokenAntiForja = $('[name=__RequestVerificationToken]').val();
+    </script>
+    <script src="~/js/htmlSnippets.js" asp-append-version="true"></script>
+    <script src="~/js/mascaras.js" asp-append-version="true"></script>
+    <script src="~/js/rumo-datatableinlineeditor.js" asp-append-version="true"></script>
+    <script src="~/js/utility.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

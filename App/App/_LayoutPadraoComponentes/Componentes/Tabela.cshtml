@@ -1,0 +1,14 @@
+﻿@model LayoutPadrao.ViewModels.TabelaViewModel
+
+<div class="table-responsive">
+    <table id="@Model.IdTabela" class="table table-centered table-striped dt-responsive w-100">
+        <thead>
+            <tr>
+                @foreach (var coluna in Model.Colunas)
+                {
+                    <th>@coluna</th>
+                }
+            </tr>
+        </thead>
+    </table>
+</div>

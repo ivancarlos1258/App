@@ -1,0 +1,20 @@
+[
+  {
+    "Permissao": "",
+    "Texto": "Início",
+    "Icone": "bi-house",
+    "RotaUrl": "/"
+  },
+
+  {
+    "Texto": "Administração",
+    "Icone": "bi-bookmark-check-fill",
+    "Itens": [
+      {
+        "Permissao": "",
+        "Texto": "Usuários",
+        "RotaUrl": "/Administracao/Usuario"
+      }
+    ]
+  }
+]

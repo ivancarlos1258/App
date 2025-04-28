@@ -1,0 +1,6 @@
+﻿@model LayoutPadrao.ViewModels.CheckboxViewModel
+
+<div class="form-check">
+    <input @(Model.Checked is true ? "checked" : "") @(Model.Disabled is true ? "disabled" : "") id="@Model.Id" type="checkbox">
+    <label for="@Model.Id">@Model.Label</label>
+</div>
