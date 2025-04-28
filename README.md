@@ -8,3 +8,6 @@ Lista os usuario
 Pode incluir um usuario
 
 Pode desativar usuario logicamente 
+
+Foi usado .Net 8, Refit para conetar a API
+MVC
