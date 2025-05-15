@@ -1,0 +1,115 @@
+:root {
+    --tamanhoSidebarGrande: 240px;
+    --tamanhoSidebarPequena: 70px;
+}
+
+#sidebar {
+    min-height: 100vh;
+    width: var(--tamanhoSidebarGrande);
+    z-index: 10
+}
+html[sidebar-size=small] #sidebar {
+    width: var(--tamanhoSidebarPequena);
+}
+html[sidebar-size=mobile] #sidebar {
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transform: translateX(-100%);
+    width: 100vw;
+}
+
+#botaoFecharSidebarMobile{
+    display: none;
+}
+html[sidebar-size=mobile] #botaoFecharSidebarMobile {
+    display: flex;
+}
+
+html[sidebar-size=small] #logoSidebar {
+    display: none;
+}
+#iconSidebar{
+    display: none;
+}
+html[sidebar-size=small] #iconSidebar {
+    display: block;
+}
+
+.itemSidebar * {
+    color: var(--cinzaClaro);
+}
+.itemSidebar i {
+    font-size: 18px;
+}
+.itemSidebar i:not(.setaAccordionSidebar) {
+    margin-right: 16px;
+}
+.linkSidebar, .headerAccordionSidebar{
+    cursor: pointer;
+}
+.linkSidebar:hover *,
+.headerAccordionSidebar:hover *,
+.accordionSidebar.isOpen .headerAccordionSidebar *{
+    color: #eee;
+}
+.listaAccordionSidebar{
+    display: none
+}
+.accordionSidebar.isOpen .listaAccordionSidebar {
+    display: block
+}
+
+html[sidebar-size=small] .linkSidebar,
+html[sidebar-size=small] .headerAccordionSidebar {
+    justify-content: center !important;
+}
+html[sidebar-size=small] .itemSidebar i {
+    margin: 0;
+}
+html[sidebar-size=small] .textoItemSidebar,
+html[sidebar-size=small] .setaAccordionSidebar,
+html[sidebar-size=small] .itemSidebar .listaAccordionSidebar {
+    display: none;
+}
+html[sidebar-size=small] .itemSidebar:hover .textoItemSidebar {
+    align-items: center;
+    background-color: var(--cinzaEscuro);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    height: 100%;
+    padding: 0 22px;
+    position: absolute;
+    right: 0;
+    transform: translate(100%, -50%);
+    top: 50%;
+    width: max-content;
+}
+html[sidebar-size=small] .itemSidebar:hover .headerAccordionSidebar .textoItemSidebar {
+    border-bottom: 1px solid var(--cinza)
+}
+html[sidebar-size=small] .itemSidebar:hover .listaAccordionSidebar {
+    background-color: var(--cinzaEscuro);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    padding: 0 22px;
+    position: absolute;
+    right: 0;
+    transform: translate(100%, 0%);
+    top: 100%;
+    width: max-content;
+}
+
+html[sidebar-size=mobile] #listaItensSidebar {
+    height: 100%;
+    overflow: hidden scroll;
+    scrollbar-width: thin;
+}
+
+.isActive,
+.isActive * {
+    color: #eee;
+}

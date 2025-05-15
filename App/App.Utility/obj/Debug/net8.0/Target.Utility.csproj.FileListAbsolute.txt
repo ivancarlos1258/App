@@ -1,0 +1,16 @@
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\bin\Debug\net8.0\Target.Utility.deps.json
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\bin\Debug\net8.0\Target.Utility.dll
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\bin\Debug\net8.0\Target.Utility.pdb
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\bin\Debug\net8.0\Target.Domain.dll
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\bin\Debug\net8.0\Target.Domain.pdb
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.csproj.AssemblyReference.cache
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.AssemblyInfoInputs.cache
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.AssemblyInfo.cs
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.csproj.CoreCompileInputs.cache
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.sourcelink.json
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.U.B43E3857.Up2Date
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.dll
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\refint\Target.Utility.dll
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\Target.Utility.pdb
+C:\ProjetosNovos\Rumo\Projetos\G-BOV\G-BOV\G-BOV.Utility\obj\Debug\net8.0\ref\Target.Utility.dll

@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\App.bundle.scp.css",
+      "PackagePath": "staticwebassets\\App.fsgaptdvo6.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Css\\Layout\\layout.css",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Css\\Layout\\layout.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Css\\Layout\\main.css",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Css\\Layout\\main.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Css\\Layout\\sidebar.css",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Css\\Layout\\sidebar.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Css\\select.css",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Css\\select.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Css\\tabela.css",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Css\\tabela.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\Config\\avisos.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\Config\\avisos.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\Config\\modal.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\Config\\modal.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\Config\\tooltips.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\Config\\tooltips.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\Layout\\header.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\Layout\\header.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\Layout\\main.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\Layout\\main.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\Layout\\sidebar.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\Layout\\sidebar.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\select.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\select.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Js\\tabela.js",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Js\\tabela.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\_LayoutPadraoAssets\\Lang\\Datatable\\pt-br.json",
+      "PackagePath": "staticwebassets\\_LayoutPadraoAssets\\Lang\\Datatable\\pt-br.json"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\css\\auth\\index.css",
+      "PackagePath": "staticwebassets\\css\\auth\\index.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\img\\icon.png",
+      "PackagePath": "staticwebassets\\img\\icon.png"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\administracao\\usuario\\detalhes.js",
+      "PackagePath": "staticwebassets\\js\\administracao\\usuario\\detalhes.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\administracao\\usuario\\index.js",
+      "PackagePath": "staticwebassets\\js\\administracao\\usuario\\index.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\administracao\\usuario\\novo.js",
+      "PackagePath": "staticwebassets\\js\\administracao\\usuario\\novo.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\cliente\\index.js",
+      "PackagePath": "staticwebassets\\js\\cliente\\index.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\cliente\\novo.js",
+      "PackagePath": "staticwebassets\\js\\cliente\\novo.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\htmlSnippets.js",
+      "PackagePath": "staticwebassets\\js\\htmlSnippets.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\mascaras.js",
+      "PackagePath": "staticwebassets\\js\\mascaras.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\rumo-datatableinlineeditor.js",
+      "PackagePath": "staticwebassets\\js\\rumo-datatableinlineeditor.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\js\\utility.js",
+      "PackagePath": "staticwebassets\\js\\utility.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\NOVO\\App\\App\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.App.props",
+      "PackagePath": "build\\App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.App.props",
+      "PackagePath": "buildMultiTargeting\\App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.App.props",
+      "PackagePath": "buildTransitive\\App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

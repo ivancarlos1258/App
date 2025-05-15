@@ -1,0 +1,9 @@
+services:
+  g-bov:
+    image: ${DOCKER_REGISTRY-}gbov
+    build:
+      context: .
+      dockerfile: G-BOV/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=80

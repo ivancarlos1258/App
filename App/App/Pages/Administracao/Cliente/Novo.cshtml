@@ -1,0 +1,35 @@
+﻿@page
+@using LayoutPadrao.ViewModels
+@model App.Pages.Cliente.NovoModel
+@{
+    ViewData["Title"] = "Incluir Cliente";
+}
+
+<div class="card">
+    <form id="formIncluirCliente" autocomplete="off">
+        <div class="row">
+            <div class="col-6 col-sm mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Input.cshtml", new InputViewModel()
+                { Id = "nome", Label = "RazaoSocial", MaxLength = "80", Required = true })
+            </div>
+            <div class="col-6 col-sm mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Input.cshtml", new InputViewModel()
+                { Id = "documento", Label = "CPF/CNPJ", Classes = "cpfcnpj", MinLength = "14", Required = true })
+            </div>
+            <div class="col-12 col-sm mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Input.cshtml", new InputViewModel()
+           { Id = "nomefantasia", Label = "NomeFantasia", MaxLength = "255", Required = true, Tipo = "email" })
+            </div>
+        </div>
+
+        <div class="align-items-center d-flex justify-content-end gap-2 mt-4">
+            <button class="btn btn-sm btn-danger" onclick="window.location = '/Cliente'" type="button"><i class="bi bi-arrow-return-left"></i> Voltar</button>
+            <button class="btn btn-sm btn-primary" type="submit"><i class="bi bi-hdd"></i> Salvar</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/js/cliente/novo.js" asp-append-version="true"></script>
+}
+

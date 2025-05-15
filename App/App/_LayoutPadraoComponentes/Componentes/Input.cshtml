@@ -1,0 +1,6 @@
+﻿@model LayoutPadrao.ViewModels.InputViewModel
+
+<div class="form-floating">
+    <input class="form-control @Model.Classes" @(Model.Disabled is true ? "disabled" : "") id="@Model.Id" maxlength="@(Model.MaxLength ?? "")" minlength="@(Model.MinLength ?? "")" placeholder="@Model.Label" @(Model.Required is true ? "required" : "") type="@(Model.Tipo ?? "text")" value="@(Model.Value ?? "")">
+    <label for="@Model.Id">@Model.Label</label>
+</div>

@@ -1,0 +1,64 @@
+:root {
+    --cinzaTabela: #f2f2f2;
+    --corClaraTabela: #e6f7ff;
+    --corEscuraTabela: #dae9f2;
+}
+
+table {
+    color: var(--cinzaEscuro) !important;
+    font-size: 14px;
+}
+
+table, th, td {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+th {
+    outline: none !important;
+    padding: 0.7rem 0.5rem !important;
+    text-align: start !important;
+}
+
+td {
+    padding: 0.55rem 0.5rem !important;
+    text-align: start !important;
+}
+
+tbody tr:nth-child(odd) td:first-child {
+    background-color: var(--corEscuraTabela) !important;
+}
+
+tbody tr:nth-child(odd) td:not(:first-child) {
+    background-color: var(--corClaraTabela) !important;
+}
+
+tbody tr:nth-child(even) td:first-child {
+    background-color: var(--cinzaTabela) !important;
+}
+
+tbody tr:nth-child(even) td:not(:first-child) {
+    background-color: white !important;
+}
+
+.dt-layout-cell * {
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+.dt-paging-button {
+    border-radius: 100% !important;
+    border: none !important;
+}
+
+.dt-paging-button:hover{
+    background: var(--cinzaClaro) !important;
+}
+
+.dt-paging-button.current {
+    background: var(--corPrincipal) !important;
+}
+
+.dt-paging-button.first, .dt-paging-button.previous, .dt-paging-button.next, .dt-paging-button.last{
+    border-radius: 4px !important;
+}

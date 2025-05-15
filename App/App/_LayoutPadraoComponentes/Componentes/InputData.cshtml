@@ -1,0 +1,9 @@
+﻿@model LayoutPadrao.ViewModels.InputDataViewModel
+
+<div class="form-floating">
+    <input class="form-control" @(Model.Disabled is true ? "disabled" : "") id="@Model.Id" @(Model.Required is true ? "required" : "") type="date"
+        max="@(Model.Max is not null ? Model.Max.Value.ToString("yyyy-MM-dd") : "")"
+        min="@(Model.Min is not null ? Model.Min.Value.ToString("yyyy-MM-dd") : "")"
+        value="@(Model.Value is not null ? Model.Value.Value.ToString("yyyy-MM-dd") : "")">
+    <label for="@Model.Id">@Model.Label</label>
+</div>

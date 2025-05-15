@@ -1,0 +1,31 @@
+﻿@page
+@model App.Pages.Administracao.Usuario.IndexModel
+@using LayoutPadrao.ViewModels
+@{
+    ViewData["Title"] = "Usuários";
+
+    var modelTabela = new TabelaViewModel()
+    {
+        IdTabela = "tabelaUsuarios",
+        Colunas = ["Nome", "E-mail", "Ativo"]
+    };
+}
+
+<div class="align-items-center d-flex justify-content-end mb-1">
+    <a class="btn btn-primary btn-sm float-end" href="/Administracao/Usuario/Novo"><i class="bi bi-plus-circle-fill text-white"></i> Novo</a>
+</div>
+
+<div class="card">
+    <div class="align-items-center d-flex justify-content-end mb-1">
+        <div class="form-check form-switch switch switch-reverse">
+            <label class="custom-control-label" style="font-size: 14px;">Trazer inativos</label>
+            <input class="form-check-input" id="inputTrazerInativos" onclick="reloadTabela()" type="checkbox">
+        </div>
+    </div>
+
+    @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Tabela.cshtml", modelTabela)
+</div>
+
+@section Scripts {
+    <script src="~/js/administracao/usuario/index.js" asp-append-version="true"></script>
+}

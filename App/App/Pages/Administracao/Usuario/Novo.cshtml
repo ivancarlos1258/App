@@ -1,0 +1,43 @@
+﻿@page
+@using App.Domain.Extensions
+@using LayoutPadrao.ViewModels
+@model App.Pages.Administracao.Usuario.NovoModel
+@{
+    ViewData["Title"] = "Incluir Usuário";
+}
+
+<div class="card mt-4">
+    <form id="formAdicionarUsuario" autocomplete="off">
+        <div class="row">
+            <div class="col-6 col-sm-4 mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Input.cshtml", new InputViewModel()
+                { Id = "nome", Label = "Nome Completo", MaxLength = "80", Required = true })
+            </div>
+            <div class="col-6 col-sm-4 mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Input.cshtml", new InputViewModel()
+                { Id = "cpf", Label = "CPF", Classes = "cpf", MinLength = "14", Required = true })
+            </div>
+            <div class="col-6 col-sm-4 mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/InputData.cshtml", new InputDataViewModel()
+                { Id = "nascimento", Label = "Nascimento", Max = DateTimeExtension.NowBr.AddDays(-1), Required = true })
+            </div>
+            <div class="col-6 col-sm-4 mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Input.cshtml", new InputViewModel()
+                { Id = "telefone", Label = "Telefone", Classes = "telefone", MaxLength = "15", MinLength = "14", Required = true })
+            </div>
+            <div class="col-6 col-sm-4 mb-2">
+                @await Html.PartialAsync("~/_LayoutPadraoComponentes/Componentes/Input.cshtml", new InputViewModel()
+                { Id = "email", Label = "Email", MaxLength = "255", Required = true, Tipo = "email" })
+            </div>
+        </div>
+
+        <div class="align-items-center d-flex justify-content-end gap-2 mt-4">
+            <button class="btn btn-sm btn-danger" onclick="window.location = '/Administracao/Usuario'" type="button"><i class="bi bi-arrow-return-left"></i> Voltar</button>
+            <button class="btn btn-sm btn-primary" type="submit"><i class="bi bi-hdd"></i> Salvar</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/js/administracao/usuario/novo.js" asp-append-version="true"></script>
+}

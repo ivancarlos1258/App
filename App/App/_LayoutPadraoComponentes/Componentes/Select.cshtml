@@ -1,0 +1,12 @@
+﻿@model LayoutPadrao.ViewModels.SelectViewModel
+
+<div class="form-floating">
+    <select class="form-select" @(Model.Disabled is true ? "disabled" : "") id="@Model.Id" @(Model.Required is true ? "required" : "")>
+        <option value="">Selecione...</option>
+        @foreach (var option in Model.Options)
+        {
+            <option @(Model.Default == option.Valor ? "selected" : "") value="@option.Valor">@option.Texto</option>
+        }
+    </select>
+    <label for="@Model.Id">@Model.Label</label>
+</div>

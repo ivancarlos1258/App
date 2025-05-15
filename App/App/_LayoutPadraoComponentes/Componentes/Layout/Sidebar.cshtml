@@ -1,0 +1,56 @@
+﻿@using LayoutPadrao.Funcoes
+@{
+    var usuarioLogado = DadosUsuarioLogado.ObterUsuarioLogado(User.Claims);
+}
+
+<link rel="stylesheet" href="~/_LayoutPadraoAssets/Css/Layout/sidebar.css">
+
+<nav class="p-2 rounded-end-4" id="sidebar" style="background-color: var(--cinzaEscuro);">
+    <div class="align-items-center justify-content-end" id="botaoFecharSidebarMobile" onclick="$('#sidebar').css('transform', 'translateX(-100%)')" style="cursor: pointer;">
+        <i class="bi bi-x-lg" style="color: var(--cinzaClaro); right: 0; top: 0;"></i>
+    </div>
+
+    <div class="align-items-center d-flex justify-content-center px-2 py-4" style="border-bottom: 1px solid var(--corPrincipal);">
+        <!--<img id="logoSidebar" src="@Url.Content("~/img/logo1.png")" style="width: 70%;">-->
+        <img id="iconSidebar" src="@Url.Content("~/img/icon.png")" style="width: 100%;">
+    </div>
+
+    <ul class="pb-5 px-2" id="listaItensSidebar">
+        @foreach (var item in Menu.Construir(usuarioLogado))
+        {
+            var linkItemMenu = string.IsNullOrWhiteSpace(item.RotaUrl) ? "#" : item.RotaUrl;
+
+            <li class="itemSidebar position-relative">
+                @if (item.Itens is null)
+                {
+                    <a class="linkSidebar align-items-center d-flex py-3" href="@linkItemMenu">
+                        <i class="bi @item.Icone"></i>
+                        <p class="textoItemSidebar">@item.Texto</p>
+                    </a>
+                }
+                else if(item.Itens.Length > 0)
+                {
+                    <div class="accordionSidebar d-flex flex-column">
+                        <div class="headerAccordionSidebar align-items-center d-flex justify-content-between py-3 w-100">
+                            <div class="align-items-center d-flex">
+                                <i class="bi @item.Icone"></i>
+                                <p class="textoItemSidebar">@item.Texto</p>
+                            </div>
+
+                            <i class="setaAccordionSidebar bi bi-chevron-down"></i>
+                        </div>
+
+                        <ul class="listaAccordionSidebar">
+                            @foreach (var subItem in item.Itens)
+                            {
+                                <li class="linkSidebar py-2" style="font-size: 14px;">
+                                    <a href="@subItem.RotaUrl">@subItem.Texto</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </li>
+        }
+    </ul>
+</nav>
